@@ -1,0 +1,69 @@
+.plans-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.plan-name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.plan-price {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-details {
+  margin-bottom: 15px;
+}
+
+.details-link {
+  display: block;
+  margin-bottom: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.validity-data, .data-per-day, .subscriptions {
+  margin-bottom: 10px;
+}
+
+.validity-data div, .data-per-day div {
+  display: inline-block;
+  width: 50%;
+}
+
+.subscriptions img {
+  width: 90px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.recharge-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.footer {
+    background-color: #003399;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .verified-by img, .social-links img, .zaakpay-logo {
+    width: 50px;
+    margin: 5px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+  }
