@@ -1,0 +1,38 @@
+.about-us-container {
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+    color: #333;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    font-family: 'Courier New', monospace;
+}
+
+.about-us-container h1 {
+    font-size: 2.2rem;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.about-us-container h2 {
+    font-size: 1.6rem;
+    color: #004d40;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.about-us-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.about-us-container strong {
+    color: #00796b;
+    font-weight: 700;
+}
+

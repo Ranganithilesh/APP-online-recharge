@@ -1,0 +1,35 @@
+/* Carousel.css */
+.carousel-container {
+    background-color: white; /* This sets the background color to white */
+    padding: 380px; /* Optional: Add some padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better contrast */
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+  }
+  
+  .carousel-item {
+    position: relative;
+    text-align: center; /* Center the content inside each carousel item */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Make sure images take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .carousel-content {
+    position: absolute;
+    bottom: 20px; /* Position content at the bottom of the carousel item */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for text */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-content h2, .carousel-content p {
+    margin: 0;
+    color: #333; /* Dark text color for better readability */
+  }
+  

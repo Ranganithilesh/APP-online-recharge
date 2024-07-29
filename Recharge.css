@@ -1,0 +1,137 @@
+.recharge-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff, #a2c2e3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recharge-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.recharge-container h1 {
+    text-align: center;
+    color: #003366;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.recharge-details p {
+    margin: 12px 0;
+    font-size: 18px;
+    color: #004d99;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+.recharge-input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.recharge-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.recharge-input:hover {
+    border-color: #0056b3;
+}
+
+.recharge-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.recharge-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d79);
+}
+
+.recharge-success {
+    text-align: center;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.payment-options {
+    margin-top: 20px;
+    text-align: center; /* Center the images */
+}
+
+.payment-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-image {
+    width: 100px; /* Adjust size as needed */
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.payment-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.payment-image {
+    width: 100px; /* Adjust size as needed */
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Include border color transition */
+    border: 2px solid transparent; /* Initial border state */
+}
+
+.payment-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    border-color: #007bff; /* Outline color on hover */
+}
+.payment-image.selected {
+    border: 2px solid #007bff; /* Blue outline for selected image */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional shadow effect */
+}
